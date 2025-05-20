@@ -1,4 +1,4 @@
-module example/hello
+module github.com/milosdjurica/go-practice/01-hello
 
 go 1.24.3
 
