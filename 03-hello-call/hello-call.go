@@ -19,4 +19,15 @@ func main() {
 	}
 
 	fmt.Println(message)
+
+	names := []string{"Milos", "Decenter", "Solidity", "Golang"}
+
+	messages, err := greetings.Hellos(names)
+
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	fmt.Println(messages)
+
 }
